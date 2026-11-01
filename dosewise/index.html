@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Dosewise Privacy Policy</title>
+<meta name="description" content="Privacy policy for the Dosewise app: how health information, prescription photos and account details are collected, used, kept and deleted.">
+<style>
+  :root {
+    --bg: #FFFFFF;
+    --text: #0F2A43;
+    --muted: #475C70;
+    --accent: #0B766C;
+    --rule: #D5E1E5;
+    --tint: #E2F3F0;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0E1A24;
+      --text: #E8F0F5;
+      --muted: #A9BAC7;
+      --accent: #5FD6C4;
+      --rule: #284050;
+      --tint: #123036;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.65 system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  }
+  main { max-width: 760px; margin: 0 auto; padding: 48px 16px 64px; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 4px; }
+  h2 { font-size: 1.2rem; margin: 40px 0 8px; }
+  h3 { font-size: 1rem; margin: 20px 0 6px; }
+  p, li { margin: 0 0 12px; }
+  ul { padding-left: 22px; }
+  .updated { color: var(--muted); margin-bottom: 28px; }
+  .summary { background: var(--tint); border-radius: 14px; padding: 16px 20px; margin: 0 0 8px; }
+  .summary p { margin: 0 0 8px; }
+  .summary p:last-child { margin: 0; }
+  a { color: var(--accent); }
+  table { border-collapse: collapse; width: 100%; margin: 8px 0 16px; font-size: 0.95rem; }
+  th, td { border-bottom: 1px solid var(--rule); text-align: left; padding: 8px 10px 8px 0; vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+  footer { margin-top: 48px; padding-top: 16px; border-top: 1px solid var(--rule); color: var(--muted); font-size: 0.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Dosewise Privacy Policy</h1>
+  <p class="updated">Last updated: November 1, 2026</p>
+
+  <div class="summary">
+    <p><strong>In short.</strong> Dosewise lets you send a photo of your prescription to a licensed pharmacist and get a written medication guide. To do that, we handle sensitive health information. We use it only to run the service. We do not sell it, we do not show advertising, and we do not use analytics or tracking tools. Prescription photos are deleted automatically 30 days after a request ends. You can ask us to delete your account and data at any time.</p>
+  </div>
+
+  <h2>Who we are</h2>
+  <p>Dosewise (“the app”, “we”, “us”) is operated by Shahram Baig. You can reach us at <a href="mailto:shahrambaig.workingmail@gmail.com">shahrambaig.workingmail@gmail.com</a>.</p>
+  <p>Dosewise gives information from licensed pharmacists. It is not for emergencies and does not replace your doctor. In an emergency call your local emergency number or go to the nearest hospital.</p>
+
+  <h2>Information we collect</h2>
+
+  <h3>If you use the app as a patient</h3>
+  <table>
+    <tr><th>What</th><th>Why we need it</th></tr>
+    <tr><td>Name, and your email address or mobile number. Your password is handled by Google Firebase Authentication; we never see it.</td><td>To create and secure your account and to sign you in.</td></tr>
+    <tr><td>Health profile: age, weight, allergies, medicines you take now, health conditions, and pregnancy or breastfeeding status.</td><td>So the pharmacist can check your prescription safely, for example for allergies and interactions. You confirm it again before each request.</td></tr>
+    <tr><td>Photos of your prescription, and an optional note.</td><td>So the pharmacist can read and review the prescription.</td></tr>
+    <tr><td>Messages and answers you exchange with your pharmacist, and the consultation time you choose.</td><td>To carry out the consultation.</td></tr>
+    <tr><td>The medication guide your pharmacist sends you, and your medicine reminder settings (which medicines and what times).</td><td>To show you the guide and to remind you to take your medicines.</td></tr>
+    <tr><td>A notification token and a random device identifier.</td><td>To send you notifications (new messages, bookings, your guide) and to show them on the right phone.</td></tr>
+  </table>
+
+  <h3>If you use the app as a pharmacist</h3>
+  <ul>
+    <li>Your name, email address or mobile number, licence number, and where you work.</li>
+    <li>Photos of your pharmacist licence, your ID document and a selfie, so our team can check that you are a licensed pharmacist. These are never shown to patients.</li>
+    <li>The messages and medication guides you write, and your consultation times.</li>
+  </ul>
+
+  <h3>Camera, photos and hidden details</h3>
+  <p>The app asks for camera access only so you can photograph a prescription or a document. Before a photo is uploaded, we remove hidden details such as the location stored inside it. We shrink the photo to keep it small.</p>
+
+  <h3>Information stored on your phone</h3>
+  <p>Your language choice and some app settings are stored on your phone. Medicine reminders are set as alarms on your phone.</p>
+
+  <h2>Who can see your information</h2>
+  <ul>
+    <li><strong>Your pharmacist.</strong> Only the pharmacist who is handling your request can see your health profile, your prescription photos and your messages.</li>
+    <li><strong>Our review team.</strong> Our team looks at pharmacist applications (licence, ID and selfie) to verify them. We may also look at a request when needed to keep people safe, to fix a problem, or when the law requires it.</li>
+    <li><strong>Our service providers.</strong> We use <strong>Google Firebase</strong> (sign-in and push notifications) and <strong>Supabase</strong> (database and private file storage). They process data for us and under our instructions. Their servers may be in another country.</li>
+  </ul>
+  <p>We do <strong>not</strong> sell your information. We do not share it for advertising. The app contains no advertising, no analytics and no third-party tracking.</p>
+
+  <h2>How we protect it</h2>
+  <ul>
+    <li>Data travels between the app and our servers over encrypted connections (HTTPS).</li>
+    <li>The database only lets a patient see their own data and a pharmacist see the requests assigned to them. These rules are enforced by the database itself, not just by the app.</li>
+    <li>Prescription photos and documents are stored in private storage and shown through short-lived links.</li>
+  </ul>
+  <p>No system is perfectly secure. If you think your account has been accessed by someone else, tell us at once.</p>
+
+  <h2>How long we keep it</h2>
+  <ul>
+    <li><strong>Prescription photos:</strong> deleted automatically 30 days after a request is closed, cancelled or declined. The app tells you this before you send a photo. Your medication guide stays in the app.</li>
+    <li><strong>Health profile, messages, medication guides and reminders:</strong> kept while your account is active.</li>
+    <li><strong>Pharmacist documents (licence, ID, selfie):</strong> kept while the pharmacist account is active, so we can show that it was verified.</li>
+    <li><strong>Deleted accounts:</strong> when you ask us to delete your account we delete your personal data, as described below. We may keep records that no longer identify you, or that we must keep for safety, fraud prevention or legal reasons.</li>
+  </ul>
+
+  <h2>Your choices and rights</h2>
+  <ul>
+    <li>You can view and change your health profile in the app at any time (Profile, then Edit health profile).</li>
+    <li>You can ask for a copy of your data, ask us to correct it, or ask us to delete your account and data. See <a href="delete-account/">how to delete your account and data</a>.</li>
+    <li>You can turn off notifications, or the camera, in your phone’s settings. The app will still work, but without those features.</li>
+  </ul>
+
+  <h2>Children</h2>
+  <p>Dosewise is for adults aged 18 and over. It is not meant for children, and we do not knowingly collect information from them. If you believe a child has created an account, contact us and we will delete it.</p>
+
+  <h2>Changes to this policy</h2>
+  <p>We may update this policy. The latest version is always on this page, with its date at the top. If a change affects how we use health information, we will tell you in the app before it takes effect.</p>
+
+  <h2>Contact</h2>
+  <p>Questions, or requests about your data: <a href="mailto:shahrambaig.workingmail@gmail.com">shahrambaig.workingmail@gmail.com</a>.</p>
+
+  <footer>© 2026 Dosewise</footer>
+</main>
+</body>
+</html>
